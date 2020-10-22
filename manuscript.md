@@ -4,7 +4,7 @@ author-meta:
 - Jane Roe
 bibliography:
 - content/manual-references.json
-date-meta: '2020-10-15'
+date-meta: '2020-10-22'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -23,9 +23,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Manuscript Title" />
 
-  <meta name="dc.date" content="2020-10-15" />
+  <meta name="dc.date" content="2020-10-22" />
 
-  <meta name="citation_publication_date" content="2020-10-15" />
+  <meta name="citation_publication_date" content="2020-10-22" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -67,11 +67,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/codigobonito/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/codigobonito/v/226542f284c03be4cf7862f0997ad9c6dd642d10/" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/codigobonito/v/cfa3a53772c2dd41c6818341cd0c6c3933bcd785/" />
 
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/codigobonito/v/226542f284c03be4cf7862f0997ad9c6dd642d10/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/codigobonito/v/cfa3a53772c2dd41c6818341cd0c6c3933bcd785/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/codigobonito/v/226542f284c03be4cf7862f0997ad9c6dd642d10/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/codigobonito/v/cfa3a53772c2dd41c6818341cd0c6c3933bcd785/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -103,10 +103,10 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/codigobonito/v/226542f284c03be4cf7862f0997ad9c6dd642d10/))
+([permalink](https://lubianat.github.io/codigobonito/v/cfa3a53772c2dd41c6818341cd0c6c3933bcd785/))
 was automatically generated
-from [lubianat/codigobonito@226542f](https://github.com/lubianat/codigobonito/tree/226542f284c03be4cf7862f0997ad9c6dd642d10)
-on October 15, 2020.
+from [lubianat/codigobonito@cfa3a53](https://github.com/lubianat/codigobonito/tree/cfa3a53772c2dd41c6818341cd0c6c3933bcd785)
+on October 22, 2020.
 </em></small>
 
 ## Authors
@@ -597,6 +597,106 @@ following recommendations:
 ### Comments
 
 
+
+
+
+
+
+## Good enough practices in scientific computing
+[@doi:10.1371/journal.pcbi.1005510]
+
+### Highlights
+Ensure that raw data are backed up in more than one location.
+Record all the steps used to process data.
+Use a unique identifier for every record.
+Submit data to a reputable DOI-issuing repository 
+
+
+Consider changing file permissions to read-only or using spreadsheet protection features
+consult with your local Information Technology (IT) group or library. Alternatively, cloud computing resources, like Amazon Simple Storage Service (Amazon S3)
+CSV for tabular data
+"tidy" data
+write scripts for every stage of data processing
+Sites such as Figshare, Dryad, and Zenodo allow others to find your work, use it, and cite it
+
+
+Decompose programs into functions
+Give functions and variables meaningful names
+Make dependencies and requirements explicit
+Do not comment and uncomment sections of code to control a program's behavior
+Submit code to a reputable DOI-issuing repository.
+
+
+Functions should take no more than 5 or 6 input parameters and should not reference outside information.
+The key motivation here is to fit the program into the most limited memory of all: ours
+adding a file called something like requirements.txt to the root directory of the project
+
+
+Create an overview of your project.
+Make the license explicit.
+
+project's title, a brief description, up-to-date contact information, and an example or 2 of how to run various cleaning or analysis tasks
+Have a LICENSE file in the project's home directory that clearly states what license(s) apply to the project's software, data, and manuscripts.
+
+
+doc directory
+data directory
+results directory
+src directory
+
+For a small project with 1 main output, a single controller script should be placed in the main src directory and distinguished clearly by a name such as "runall"
+
+Use a version control system: GitHub
+
+Write manuscripts using online tools with rich formatting, change tracking, and reference management
+Write the manuscript in a plain text format that permits version control.
+
+Instead of an email-based workflow, we recommend mirroring good practices for managing software and data to make writing scalable, collaborative, and reproducible
+Good intentions aside, it always comes down to, "just give me a Word document with tracked changes", or similar
+
+The semantic web. Ontologies and other formal definitions of data are useful, but in our experience, even simplified things like Dublin Core are rarely encountered in the wild.
+--> Tiago cries in OWL
+
+### Comments
+
+
+
+
+## Software engineering for scientific big data analysis 
+[@doi:10.1093/gigascience/giz054]
+
+### Highlights
+many of the computational tools released can only be described, politely, as “research-grade.” These tools can place an exorbitant burden on the end users who find themselves in the position of attempting to execute and chain them into complex analysis pipelines.
+
+Spend adequate time designing the scope and expectations of your project.
+Clearly define the scope of your work, and anticipate corner cases that you think you might need to account for
+
+ When assessing the quality of an existing tool, you should follow the same guidelines that are laid out here for designing your own software: 
+ i) Can you understand what the code does, so that you can verify its logic and assumptions, can fix bugs, and improve the code if required? (
+ii) Does the software contain tests? 
+(iii) Does it have a high test coverage? 
+(iv) Does it use continuous integration? 
+(v) What other dependencies does it rely on? 
+(vi) Are those dependencies deemed robust, reliable software? 
+(vii) Are the licensing and implementation compatible with integration in your workflow? 
+
+Names must be self-explanatory to those who will be interacting with them
+Metadata is as important as the primary dataset. 
+
+Installation of the computational tool is likewise important; installation procedures for a tool and its dependencies can become a challenge for users of different backgrounds. Simply put, if a tool cannot be installed, it cannot be used.
+
+
+### Comments
+
+
+
+
+## Title
+[@doi:]
+
+### Highlights
+
+### Comments
 
 
 

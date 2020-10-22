@@ -1,3 +1,4 @@
+content/00.front-matter.md:7:Uncomment
 content/02.2020_09_24.md:1:Reunião
 content/02.2020_09_24.md:12:peformed
 content/02.2020_09_24.md:12:src
@@ -131,3 +132,15 @@ content/05.2020_10_15.md:100:sults
 content/05.2020_10_15.md:105:datasets
 content/05.2020_10_15.md:105:datasets
 content/05.2020_10_15.md:105:lication
+content/06.2020_10_22.md:15:CSV
+content/06.2020_10_22.md:18:Figshare
+content/06.2020_10_22.md:18:Zenodo
+content/06.2020_10_22.md:24:uncomment
+content/06.2020_10_22.md:30:txt
+content/06.2020_10_22.md:43:src
+content/06.2020_10_22.md:45:runall
+content/06.2020_10_22.md:45:src
+content/06.2020_10_22.md:52:scalable
+content/06.2020_10_22.md:55:Ontologies
+content/06.2020_10_22.md:56:Tiago
+content/06.2020_10_22.md:82:dataset
