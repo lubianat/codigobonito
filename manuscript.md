@@ -4,7 +4,7 @@ author-meta:
 - Jane Roe
 bibliography:
 - content/manual-references.json
-date-meta: '2020-10-22'
+date-meta: '2020-10-29'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -23,9 +23,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Manuscript Title" />
 
-  <meta name="dc.date" content="2020-10-22" />
+  <meta name="dc.date" content="2020-10-29" />
 
-  <meta name="citation_publication_date" content="2020-10-22" />
+  <meta name="citation_publication_date" content="2020-10-29" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -67,11 +67,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/codigobonito/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/codigobonito/v/cfa3a53772c2dd41c6818341cd0c6c3933bcd785/" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/codigobonito/v/6f471ffded241b345c1a03004d0c9f0bd51de59d/" />
 
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/codigobonito/v/cfa3a53772c2dd41c6818341cd0c6c3933bcd785/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/codigobonito/v/6f471ffded241b345c1a03004d0c9f0bd51de59d/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/codigobonito/v/cfa3a53772c2dd41c6818341cd0c6c3933bcd785/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/codigobonito/v/6f471ffded241b345c1a03004d0c9f0bd51de59d/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -103,10 +103,10 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/codigobonito/v/cfa3a53772c2dd41c6818341cd0c6c3933bcd785/))
+([permalink](https://lubianat.github.io/codigobonito/v/6f471ffded241b345c1a03004d0c9f0bd51de59d/))
 was automatically generated
-from [lubianat/codigobonito@cfa3a53](https://github.com/lubianat/codigobonito/tree/cfa3a53772c2dd41c6818341cd0c6c3933bcd785)
-on October 22, 2020.
+from [lubianat/codigobonito@6f471ff](https://github.com/lubianat/codigobonito/tree/6f471ffded241b345c1a03004d0c9f0bd51de59d)
+on October 29, 2020.
 </em></small>
 
 ## Authors
@@ -698,6 +698,69 @@ Installation of the computational tool is likewise important; installation proce
 
 ### Comments
 
+
+
+## Make code accessible with these cloud services
+[@url:https://www.nature.com/articles/d41586-019-03366-x]
+
+### Highlights
+ getting your computer set up in exactly the same way as somebody else’s computer is set up. That is just ridiculously difficult
+A text-based ‘command-line’ application, Docker has dozens of options, and building a working Dockerfile can be an exercise in frustration.
+
+Colaboratory (free), Code Ocean, Gigantum and Nextjournal (the latter three have free and paid tiers) let users write code in the cloud as well and, in some cases, bundle it with the data to be processed.
+
+codify your computing environment as early as possible in a project, and stick with it
+!!!!
+
+Several journals now use Code Ocean for peer review and to promote computational reproducibility.
+
+it took a week to get the Code Ocean environment working. “The reviewers seemed to really like it,”
+### Comments
+
+## What we have learnt testing container-platforms for peer review and publication of code
+[@url:http://blogs.nature.com/ofschemesandmemes/2019/10/09/what-we-have-learnt-testing-container-platforms-for-peer-review-and-publication-of-code]
+
+### Highlights
+when new code is central to the main claims made in the paper, it is imperative that the code meets the same quality and reproducibility standards as the paper itself.
+Nature Methods adopted the practice of ‘peer reviewing code’ for software papers in 2007 (https://www.nature.com/articles/nmeth0307-189)
+We also want to learn how the workflow would scale and to test it on more scientific disciplines so we have added Nature, Nature Protocols and BMC Bioinformatics to the trial
+### Comments
+
+## Recommendations for the packaging and containerizing of bioinformatics software
+[@doi:10.12688/f1000research.15140.2]
+
+### Highlights
+Here, we presented a set of recommendations developed by the BioContainers Community to produce standardized bioinformatics packages and containers.
+
+Conda, is a popular package manager in research software, it quickly installs, runs and updates packages and their depend- encies. It handles dependencies for many languages, such as C, C++, R, Java, Perl, and Python.
+
+Containers should be defined to be as granular as possible, with the premise of one tool, one container. Each container should encapsulate only one piece of software that performs a unique task with a well-defined goal (e.g. sequence aligner, mass spectra identification).
+
+educe the size of your container during builds. Avoid installing "recommended" packages in apt based systems in your deployed container.
+
+Annotate packages and containers with metadata that allows users (e.g. biologists and bioinformaticians) to find them.
+
+This manuscript promotes and encourages the adoption of package and container technologies to improve the quality and reusability of research software. The
+### Comments
+
+## Social software
+
+[@url:https://www.nature.com/articles/nmeth0307-189]
+
+
+### Highlights
+If a software program is the focus of the report, we expect the programming code to be made available. Without the code, the software—and thus the paper—would become a black box of little use to the scientific community.
+
+reproduce the procedure and use the method in their own research at reasonable cost—both monetary and in terms of labor
+### Comments
+
+
+## Title
+[@doi:]
+
+### Highlights
+
+### Comments
 
 
 ## References {.page_break_before}

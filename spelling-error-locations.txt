@@ -144,3 +144,21 @@ content/06.2020_10_22.md:52:scalable
 content/06.2020_10_22.md:55:Ontologies
 content/06.2020_10_22.md:56:Tiago
 content/06.2020_10_22.md:82:dataset
+content/07.2020_10 _28.md:5:else’s
+content/07.2020_10 _28.md:6:Dockerfile
+content/07.2020_10 _28.md:8:Colaboratory
+content/07.2020_10 _28.md:8:Gigantum
+content/07.2020_10 _28.md:8:Nextjournal
+content/07.2020_10 _28.md:13:reproducibility
+content/07.2020_10 _28.md:18:learnt
+content/07.2020_10 _28.md:19:learnt
+content/07.2020_10 _28.md:22:reproducibility
+content/07.2020_10 _28.md:24:Bioinformatics
+content/07.2020_10 _28.md:24:BMC
+content/07.2020_10 _28.md:27:bioinformatics
+content/07.2020_10 _28.md:31:BioContainers
+content/07.2020_10 _28.md:31:bioinformatics
+content/07.2020_10 _28.md:33:Conda
+content/07.2020_10 _28.md:33:encies
+content/07.2020_10 _28.md:39:bioinformaticians
+content/07.2020_10 _28.md:41:reusability
