@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/lubianat/codigobonito/tree/gh-pages) branch hosts the contents of this directory at <https://lubianat.github.io/codigobonito/>.
-The permalink for this webpage version is <https://lubianat.github.io/codigobonito/v/cfa3a53772c2dd41c6818341cd0c6c3933bcd785/>.
+The permalink for this webpage version is <https://lubianat.github.io/codigobonito/v/6f471ffded241b345c1a03004d0c9f0bd51de59d/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://lubianat.github.io/codigobonito/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`cfa3a53772c2dd41c6818341cd0c6c3933bcd785`](https://github.com/lubianat/codigobonito/commit/cfa3a53772c2dd41c6818341cd0c6c3933bcd785).
+[`6f471ffded241b345c1a03004d0c9f0bd51de59d`](https://github.com/lubianat/codigobonito/commit/6f471ffded241b345c1a03004d0c9f0bd51de59d).
